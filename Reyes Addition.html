@@ -1,0 +1,163 @@
+<html>
+<center>
+<style>
+  body {background-color: azure;}
+h1 {
+  color: red;
+  font-family: verdana;
+  font-size: 300%;
+}
+</style>
+<h1>Music Way</h1>
+
+<body>
+  <style>
+    h2 {
+  color: black;
+  font-family: verdana;
+  font-size: 160%;
+}
+p  {
+  color: black;
+  font-family: courier;
+  font-size:100%;
+}
+</style>
+
+  <section>
+  <h2>Welcome</h2>
+  <p>Look Around and Find Your Groove. Music Way is a website dedicated for musicians and music professionals alike. Connect with other musicians from all around the world with a click of a button.</p>
+  <p>Do you love music but don't know how to make a career out of it? Go to our career section and find out how you can make a living with your music.</p>
+  </section>
+<img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width="800" height="400">
+<section>
+
+    <style>
+  h3 {
+    color: red;
+    font-family: verdana;
+    font-size: 160%;
+  }
+  p  {
+    color: black;
+    font-family: courier;
+    font-size: 100%;
+  }
+    </style>
+<h3> Feautured Artist of the Week</h3>
+<img src="https://www.rosiecarney.com/src/images/bare-album-cover.jpg" alt="Rosie Carney" width="500" height="500">
+<p> Rosie Carney is an Anglo-Irish artist. She's a singer/songwriter with impressive velvety vocals specializing in Folk music.<p>
+<iframe width="700" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/582996546&color=%23f0ffff&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+</body>
+
+<script type ="application/javascript"
+  <!-- Unsplash API -->
+  src="https://api.unsplash.com/photos/?client_id=e36475c94a39027bb6e9d5c52173f85dcca2042168c1d7fca0aa4a72e06ac376?GET /users/:AlexCowles/collections"
+</script>
+
+<script type = "application/javascript"
+<!-- //Facebook API -->
+src="https://developers.facebook.com/docs/plugins/"
+</script>
+
+<script>  //alerts user and saves and refills information for you
+window.addEventListener('load', function() {
+  var status = document.getElementById("status");
+  var log = document.getElementById("log");
+  function updateOnlineStatus(event) {
+    var condition = navigator.onLine ? "online" : "offline";
+    status.className = condition;
+    status.innerHTML = condition.toUpperCase();
+    log.insertAdjacentHTML("beforeend", "Event: " + event.type + "; Status: " + condition);
+  }
+  window.addEventListener('online',  updateOnlineStatus);
+  window.addEventListener('offline', updateOnlineStatus);
+});
+</script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+.round {
+  border-radius: 50%;
+}
+</style>
+<body>
+
+<h2>Check out the rest!</h2>
+
+<a href="#" class="previous">&laquo; Previous</a>
+<a href="#" class="next">Next &raquo;</a>
+
+<a href="#" class="previous round">&#8249;</a>
+<a href="#" class="next round">&#8250;</a>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</center>
+
+
+
+</html>
